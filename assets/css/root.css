@@ -1,0 +1,45 @@
+:root {
+    /* font-size */
+    --fs-xsm: 10px;
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-lg: 18px;
+    --fs-xl: 24px;
+    --fs-xxl: 36px;
+    /* font-color */
+    --fc-white: #FFF;
+    --fc-black: #000;
+    --fc-gray: #666666;
+    --fc-light-gray: #c0c0c0;
+    --fc-light-white:#f8f8f8;
+      --fc-dark-white :#f0f0f0;
+}
+
+@media(max-width:992px) {
+    .lorem {
+        --fs-xxl: 24px;
+    }
+
+    .number {
+        --fs-xl: 16px;
+    }
+
+    .para {
+        --fs-lg: 12px;
+    }
+
+    .text-1 {
+        --fs-md: 10px;
+    }
+}
+
+@media(min-width:320px) and (max-width:435px) {
+    .nft {
+        --fs-xxl: 20px;
+    }
+
+    .counting {
+        --fs-lg: 12px;
+    }
+
+}
