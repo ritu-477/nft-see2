@@ -11,11 +11,13 @@
     --fc-black: #000;
     --fc-gray: #666666;
     --fc-light-gray: #c0c0c0;
-    --fc-light-white:#f8f8f8;
-      --fc-dark-white :#f0f0f0;
+    --fc-light-white: #f8f8f8;
+    --fc-dark-white: #f0f0f0;
+    --fc-primary-gray: #646464;
+    --fc-red:red;
 }
 
-@media(max-width:992px) {
+@media(max-width:991.99px) {
     .lorem {
         --fs-xxl: 24px;
     }
@@ -31,15 +33,32 @@
     .text-1 {
         --fs-md: 10px;
     }
-}
 
-@media(min-width:320px) and (max-width:435px) {
-    .nft {
-        --fs-xxl: 20px;
-    }
-
-    .counting {
+    .jhone {
         --fs-lg: 12px;
     }
 
+    .para-1 {
+        --fs-lg: 12px;
+
+    }
+
+    .comments {
+        --fs-lg: 12px;
+    }
+
+    .number-1 {
+        --fs-lg: 12px;
+    }
+
+    @media(min-width:320px) and (max-width:435px) {
+        .nft {
+            --fs-xxl: 20px;
+        }
+
+        .counting {
+            --fs-lg: 12px;
+        }
+
+    }
 }

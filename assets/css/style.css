@@ -282,7 +282,101 @@
     left: 44%;
 }
 
-@media(max-width:992px) {
+/* ....................................................................................modal................................................................... */
+
+.box-2 {
+    border: 1.5px solid rgba(0, 0, 0, 0.10);
+    background: #FAFAFA;
+    padding: 20px;
+}
+
+.scrollbox {
+    height: 500px;
+    overflow: auto;
+}
+
+.counting-1 {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Comments {
+    color: var(--fc-primary-gray);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.jhone {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.para-1 {
+    color: var(--fc-primary-gray);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 400px;
+}
+
+.modal-content {
+    height: 100%;
+    border: 0;
+
+}
+
+.circle-1 {
+    width: 61px;
+    height: 61px;
+    flex-shrink: 0;
+    border: 3px solid var(--fc-white);
+    border-radius: 40px;
+    padding: 5px 16px;
+
+    background-color: var(--fc-white);
+}
+
+.absolute-cross {
+    position: absolute;
+    top: -30px;
+    right: -28px;
+}
+
+.bg-shadow-1 {
+    border-radius: 0px 10px 10px 10px;
+    background: var(--fc-white);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+    display: inline-flex;
+    padding: 12px 17px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.img {
+    width: 32px;
+    height: 32px;
+}
+
+.svg:hover svg path {
+    fill: var(--fc-red);
+}
+
+@media(max-width:991.98px) {
     label[for="iconbox"] {
         width: 40px;
         height: 80px;
@@ -322,7 +416,7 @@ input:checked~ul.menulist {
     left: 0;
 }
 
-@media(max-width:992px) {
+@media(max-width:991.99px) {
 
     .direction {
         flex-direction: column;
@@ -343,7 +437,6 @@ input:checked~ul.menulist {
     right: 45px;
 }
 
-
 @media(min-width:320px) and (max-width:435px) {
     .w-m-25 {
         width: 25%;
@@ -358,4 +451,5 @@ input:checked~ul.menulist {
         top: 38px;
         right: 5px;
     }
+
 }
